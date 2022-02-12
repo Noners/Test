@@ -43,7 +43,6 @@ class GameObjectAnimation
                 break;
             case EaseType.EaseOut:
                 tweener.SetEase(Ease.OutSine);
-
                 break;
             case EaseType.EaseInOut:
                 tweener.SetEase(Ease.InOutSine);
